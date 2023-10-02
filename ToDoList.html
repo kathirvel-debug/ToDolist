@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Todo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <h1>Todo List App</h1>
+    <div id="container">
+      <input placeholder="Add a task" class="add-task" id="add"/>
+      <div class="note">
+        <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span>
+        <span id="total-tasks" class="Allcompleted">Completed </span>
+
+      </div>
+     
+      <ul id="list">
+        
+        <li >
+          
+          <!-- <input type="checkbox" id="task1" data-id="12" class="custom-checkbox">
+          <label for="task1">Buy groceries</label>
+          <img src="bin.svg" class="delete" data-id="12" /> -->
+        </li>
+      </ul>
+    </div>
+    <script src="gsap.min.js"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>
